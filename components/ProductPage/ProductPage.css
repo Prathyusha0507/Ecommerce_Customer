@@ -1,0 +1,629 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery-thumbnail-image {
+  height: 75px;
+}
+
+.image-gallery-image {
+  height: 500px;
+}
+
+.product-images-wrapper {
+  width: 45%;
+}
+
+.product-page-content {
+  margin: 0 5%;
+}
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px 50px;
+}
+
+.product-header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rating-wrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.rating-wrapper > svg {
+  margin-left: 30px;
+  color: red;
+}
+
+.rating-wrapper > svg:hover {
+  cursor: pointer;
+  fill: red;
+}
+
+.product-name-seller {
+  display: flex;
+  align-items: center;
+}
+
+.product-name-seller > h2 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.product-name-seller > h5 {
+  font-size: 20px;
+  display: flex;
+  margin: 0px;
+  align-items: center;
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.purchase-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.description-wrapper {
+  width: 100%;
+}
+
+.desc-text {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.buy-options {
+  margin-bottom: 75px;
+}
+
+.buy-options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 5%;
+}
+
+.price-quantity {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-quantity > h4 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.purchase-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.purchase-button {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 5px;
+  background-color: black;
+  box-shadow: 0 0 5px black;
+  border: 3px solid black;
+  color: white;
+  transition: 0.4s;
+  margin-top: 25px;
+}
+
+.purchase-button:hover {
+  background-color: #f3f3f3;
+  border: 3px solid black;
+  color: black;
+  box-shadow: 0 0 15px black;
+}
+
+.quantity-picker-wrapper {
+  display: flex;
+  width: 45%;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.quantity-picker {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity-picker-wrapper > h4 {
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.quantity-picker > * {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  max-height: 50px;
+  margin: 5px 0;
+}
+
+.quantity-picker > input {
+  background-color: #f3f3f3;
+  color: black;
+  border-right: none;
+  border-left: none;
+  text-align: center;
+  border-radius: 0px;
+}
+
+/* Code on removing arrows on number input taken from: https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.related-items,
+.reviews-container {
+  margin-top: 75px;
+}
+
+.no-review-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0, 25px);
+}
+
+.review-cards {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.review-card-wrapper {
+  width: 90%;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  border: 0.2px solid black;
+  box-shadow: 0 0 2px black;
+  transition: 0.4s;
+}
+
+.review-card-wrapper:hover {
+  box-shadow: 0 0 5px black;
+}
+
+.review-card-wrapper > h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.review-card-wrapper > hr {
+  height: 1px;
+  margin: 0px;
+}
+
+.review-text {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  overflow-wrap: break-all;
+}
+
+.review-text > p {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+  padding: 10px;
+  overflow-wrap: break-word;
+  white-space: initial;
+  overflow: scroll;
+  hyphens: auto;
+  text-align: center;
+}
+
+.review-text > p::-webkit-scrollbar {
+  display: none;
+}
+
+.react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.add-review-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px;
+}
+
+.add-review-header > h5 {
+  text-align: left;
+}
+
+.add-review-form {
+  display: flex;
+  width: 100%;
+  gap: 2.5%;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.review-inputs {
+  display: flex;
+  width: 85%;
+  align-items: center;
+}
+
+#rating-selector {
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 5px;
+  background-color: black;
+  box-shadow: 0 0 5px black;
+  border: 3px solid black;
+  color: white;
+  transition: 0.4s;
+  vertical-align: bottom;
+}
+
+#rating-selector:hover {
+  background-color: #f3f3f3;
+  border: 3px solid black;
+  color: black;
+  box-shadow: 0 0 15px black;
+  cursor: pointer;
+}
+
+#review-text {
+  vertical-align: bottom;
+  height: 100%;
+  font-size: 20px;
+  box-shadow: 0 0 5px black;
+  border: 3px solid black;
+  color: black;
+  transition: 0.4s;
+}
+
+#review-text:hover {
+  box-shadow: 0 0 15px black;
+}
+
+.add-review-button {
+  display: flex;
+  align-items: center;
+}
+
+.add-review-button > button {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: black;
+  box-shadow: 0 0 5px black;
+  border: 3px solid black;
+  color: white;
+  transition: 0.4s;
+}
+
+.add-review-button > button:hover {
+  background-color: #f3f3f3;
+  border: 3px solid black;
+  color: black;
+  box-shadow: 0 0 15px black;
+  cursor: pointer;
+}
+
+@media (max-width: 841px) {
+  .purchase-buttons {
+    font-size: 14px !important;
+    min-width: 100%;
+    flex-direction: column;
+  }
+  .desc-text {
+    font-size: 14px;
+  }
+  .quantity-picker-wrapper {
+    margin-top: 0px;
+    width: fit-content;
+  }
+  .quantity-picker {
+    width: 33%;
+  }
+  .quantity-picker-wrapper > h4 {
+    font-size: 15px;
+  }
+  .quantity-picker > input {
+    min-width: 20px;
+  }
+
+  .price-quantity {
+    align-items: center;
+  }
+
+  .price-quantity > h4 {
+    font-size: 25px;
+  }
+
+  .product-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .product-name-seller {
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+  }
+
+  .product-name-seller > h2 {
+    font-size: 20px;
+  }
+
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image-gallery-thumbnail-image {
+    height: 25%;
+  }
+
+  .image-gallery-image {
+    height: 20%;
+  }
+
+  .purchase-wrapper {
+    height: 10%;
+  }
+
+  .related-items {
+    margin-top: 5px;
+  }
+  .product-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-images-wrapper {
+    width: 100%;
+    max-height: 60%;
+    margin-bottom: 15px;
+  }
+  .product-images-wrapper .image-gallery-image {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+  }
+  .product-images-wrapper .image-gallery-thumbnail-image {
+    object-fit: contain;
+  }
+  .purchase-wrapper {
+    width: 100%;
+  }
+  .buy-options {
+    margin-bottom: 10px;
+  }
+  .no-review-wrapper {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 720px) {
+  .quantity-picker {
+    width: 25%;
+  }
+  .quantity-picker > input {
+    min-width: 15px;
+  }
+}
+
+.quantity-picker-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.review-cards {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.review-card-wrapper {
+  width: 90%;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  border: 0.2px solid black;
+  box-shadow: 0 0 2px black;
+  transition: 0.4s;
+}
+
+.review-card-wrapper:hover {
+  box-shadow: 0 0 5px black;
+}
+
+.review-card-wrapper > h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.review-card-wrapper > hr {
+  height: 1px;
+  margin: 0px;
+}
+
+.review-text {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  overflow-wrap: break-all;
+}
+
+.review-text > p {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+  padding: 10px;
+  overflow-wrap: break-word;
+  white-space: initial;
+  overflow: scroll;
+  hyphens: auto;
+  text-align: center;
+}
+
+.review-text > p::-webkit-scrollbar {
+  display: none;
+}
+
+.add-review-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px;
+}
+
+.add-review-header > h5 {
+  text-align: left;
+}
+
+.add-review-form {
+  display: flex;
+  width: 100%;
+  gap: 2.5%;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.review-inputs {
+  display: flex;
+  width: 85%;
+  align-items: center;
+}
+
+#rating-selector {
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 5px;
+  background-color: black;
+  box-shadow: 0 0 5px black;
+  border: 3px solid black;
+  color: white;
+  transition: 0.4s;
+  vertical-align: bottom;
+}
+
+#rating-selector:hover {
+  background-color: #f3f3f3;
+  border: 3px solid black;
+  color: black;
+  box-shadow: 0 0 15px black;
+  cursor: pointer;
+}
+
+#review-text {
+  vertical-align: bottom;
+  height: 100%;
+  font-size: 20px;
+  box-shadow: 0 0 5px black;
+  border: 3px solid black;
+  color: black;
+  transition: 0.4s;
+}
+
+#review-text:hover {
+  box-shadow: 0 0 15px black;
+}
+
+.add-review-button {
+  display: flex;
+  align-items: center;
+}
+
+.add-review-button > button {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: black;
+  box-shadow: 0 0 5px black;
+  border: 3px solid black;
+  color: white;
+  transition: 0.4s;
+}
+
+.add-review-button > button:hover {
+  background-color: #f3f3f3;
+  border: 3px solid black;
+  color: black;
+  box-shadow: 0 0 15px black;
+  cursor: pointer;
+}
+
+.related-items .react-multi-carousel-item > div {
+  width: 100%;
+}
+
+.react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.react-multi-carousel-track > li > .sc-gEvEer {
+  width: 100%;
+}
+
+.related-items .Toastify {
+  display: none;
+}

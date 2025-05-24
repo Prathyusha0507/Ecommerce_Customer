@@ -1,0 +1,12 @@
+.custom_address_container {
+  max-width: 95%;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+@media (max-width: 831px) {
+  .custom_address_container {
+    margin-left: -0.9rem;
+    max-width: 154%;
+    padding-right: 0rem;
+  }
+}

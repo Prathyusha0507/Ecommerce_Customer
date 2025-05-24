@@ -1,0 +1,157 @@
+.orderhistory-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 90%;
+}
+
+.orderhistory-header-search-content {
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.orderhistory-header {
+  display: inline;
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  font-size: xx-large;
+}
+
+.orderhistory-searchbar {
+  display: flex;
+  align-items: flex-end;
+}
+
+.orderhistory-hr {
+  width: 100% !important;
+  border-top-width: 0.35rem;
+}
+
+.orderhistory-card {
+  border: 0.25rem;
+  border-radius: 0.8rem;
+  border-style: solid;
+  border-color: gainsboro;
+  background-color: snow;
+  margin-bottom: 2%;
+}
+
+.order-info-container {
+  padding: 1rem;
+  margin-top: 0%;
+  background-color: gainsboro;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.ordered-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-height: fit-content;
+}
+
+.orderhistory-card-hr {
+  width: 100% !important;
+  border-top-width: 0.35rem;
+  color: gainsboro;
+}
+
+.user-info-popup {
+  display: none;
+}
+
+.ship-to-info:hover + .user-info-popup {
+  display: block;
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-color: gainsboro;
+  background-color: snow;
+}
+
+.return-order-button {
+  float: right;
+}
+
+.order-item-container {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.order-image-container {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+.order-price-container {
+  width: 10rem;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  position: relative;
+}
+
+.order-name-quantity-container h3 {
+  margin: 20px;
+  color: black;
+  font-size: 15px;
+}
+
+.order-name-quantity-container {
+  align-items: center;
+}
+
+.order-item-image {
+  float: left;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.order-price-container h1 {
+  text-align: right;
+  color: black;
+  font-size: 15px;
+}
+
+.order-price-value {
+  text-align: right;
+}
+
+@media (max-width: 873px) {
+  .order-name-quantity-container h3 {
+    margin: 20px;
+    color: black;
+    font-size: 15px;
+  }
+  .order-item-image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+  .order-price-container h1 {
+    text-align: right;
+    color: black;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 543px) {
+  .order-name-quantity-container h3 {
+    margin: 20px;
+    color: black;
+    font-size: 10px;
+  }
+  .order-item-image {
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  .order-price-container h1 {
+    text-align: right;
+    color: black;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,152 @@
+.container-shoppingCart {
+  margin: auto;
+  max-width: 75%;
+}
+
+.cart-hr {
+  width: 99% !important;
+  border-top-width: 0.35rem;
+}
+
+.card-shoppingCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-height: fit-content;
+  background-color: snow;
+  border-radius: 0.5rem;
+}
+
+.cart-header {
+  display: inline;
+  text-align: left;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-weight: bold;
+  font-size: xx-large;
+  color: black;
+}
+
+.price-header {
+  display: block;
+  text-align: right;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.removeAll-button {
+  float: right;
+  font-size: 1.5rem;
+  background-color: rgba(25, 130, 180, 0.8);
+  padding: 1.2rem;
+  border: none;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+.checkout-button {
+  align-self: flex-end;
+  font-size: 1.5rem;
+  background-color: rgba(25, 130, 180, 0.8);
+  padding: 0.8rem;
+  border: none;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+#checkout-link {
+  color: #fff;
+  border: none;
+}
+
+#item-price-header {
+  display: block;
+  text-align: right;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media (max-width: 870px) {
+  .container-shoppingCart {
+    max-width: 55%;
+  }
+  .cart-header {
+    font-size: x-large;
+  }
+  .removeAll-button,
+  .checkout-button {
+    font-size: 15px;
+    padding: 0.5rem;
+  }
+  #item-price-header {
+    font-size: 15px;
+  }
+  .card-shoppingCart h4 {
+    font-size: 15px;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 721px) {
+  .wishlist-button {
+    max-width: 100%;
+    padding: 0.4rem !important;
+    font-size: 10px;
+  }
+
+  .no-items-wrapper > h3 {
+    font-size: 14px;
+  }
+
+  .container-shoppingCart {
+    max-width: 55%;
+  }
+
+  .cart-hr {
+    width: 99% !important;
+    border-top-width: 0.35rem;
+  }
+
+  .price-header {
+    text-align: right;
+    font-size: 15px;
+    margin-bottom: 3rem;
+  }
+  #item-price-header {
+    visibility: hidden;
+  }
+
+  .card-shoppingCart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-height: fit-content;
+    background-color: snow;
+    border-radius: 0.5rem;
+  }
+
+  .removeAll-button {
+    padding: 0.5rem;
+    font-size: 10px;
+    width: 25%;
+    min-width: 100%;
+    margin-top: 5px;
+  }
+  .checkout-button {
+    padding: 0.5rem;
+    font-size: 10px;
+    width: 25%;
+    min-width: 70%;
+    margin-top: 5px;
+  }
+}

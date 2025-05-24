@@ -1,0 +1,18 @@
+.signup-container {
+  border: 1px solid gray;
+  margin: auto auto;
+  margin-top: 4rem;
+  max-width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 4rem;
+  background-color: #fff;
+}
+
+.signup-header {
+  font-weight: 600;
+  font-size: 2rem;
+  color: rgba(25, 130, 180, 0.8);
+}

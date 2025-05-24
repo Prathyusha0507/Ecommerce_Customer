@@ -1,0 +1,173 @@
+.navbar {
+  display: flex;
+  height: 60px;
+  background-color: rgba(25, 130, 180, 0.8);
+  top: 0;
+  z-index: 100;
+  position: sticky;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar_search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.navbar_search_icon {
+  background-color: rgb(210, 212, 212);
+  padding: 5px;
+  height: 3rem;
+  color: #fff;
+}
+
+.navbar_wishlist_icon {
+  color: white;
+  padding: 5px;
+  height: 35px;
+}
+
+.navbar_account_icon {
+  color: white;
+  height: 30px;
+}
+
+.navbar_search_input {
+  height: 3rem;
+  border: none;
+  width: 100%;
+  outline: none;
+  border-radius: 0 !important;
+}
+
+.navbar_link_1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.navbar_link_2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.navbar_links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.navbar_link_heading_1 {
+  font-size: 10px;
+}
+
+.navbar_link_heading_2 {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.navbar_shopping-icon {
+  color: white;
+  padding: 5px;
+  height: 35px;
+}
+
+.delete_icon {
+  color: black;
+  padding: 5px;
+  height: 35px;
+}
+
+.navbar_link_3 {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.navbar_title_link {
+  text-decoration: none !important;
+}
+
+.navbar_shopping-icon_count {
+  color: white;
+  margin-left: 0.1rem;
+  margin-right: 10px;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.navbar_title {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.user {
+  font-size: 10px;
+  font-weight: 800;
+  color: white;
+  margin-top: -0.8rem;
+}
+
+.user:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.icon {
+  margin-bottom: -1rem;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+}
+
+.user_name {
+  color: white;
+}
+
+/*Mobile Phones */
+@media (max-width: 470px) {
+  .navbar {
+    height: auto;
+    width: 100%;
+    max-height: 100px;
+  }
+
+  .navbar_title {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+
+  .navbar_search_input {
+    min-width: 10rem;
+  }
+}
+
+@media (max-width: 405px) {
+  .navbar {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    max-height: 100px;
+  }
+
+  .navbar_title {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+
+  .navbar_search_input {
+    min-width: 10rem;
+  }
+}

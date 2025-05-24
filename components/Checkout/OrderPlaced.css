@@ -1,0 +1,21 @@
+.icon {
+  color: green;
+  font-size: 40px;
+}
+
+.order-wrapper > h2 {
+  margin-top: 50px;
+}
+
+.order-wrapper {
+  width: 1000px;
+  margin: auto;
+  margin-top: 160px;
+  background-color: #dcdcdc;
+  padding: 50px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

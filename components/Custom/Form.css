@@ -1,0 +1,31 @@
+.container {
+  border: 1px solid gray;
+  margin: auto auto;
+  margin-top: 4rem;
+  max-width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 4rem;
+  background-color: #fff;
+}
+
+.form-header {
+  font-weight: 600;
+  font-size: 2rem;
+  color: rgba(25, 130, 180, 0.8);
+}
+@media (max-width: 931px) {
+  .form-header {
+    font-size: 1.5rem !important;
+  }
+
+  .container {
+    min-width: 50% !important;
+    height: auto;
+  }
+  .span_content {
+    font-size: 10px;
+  }
+}

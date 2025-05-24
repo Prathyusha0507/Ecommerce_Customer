@@ -1,0 +1,21 @@
+.custom_button {
+  padding: 0.8rem;
+  border: none;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: rgba(25, 130, 180, 0.8);
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  width: 50%;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+@media (max-width: 931px) {
+  .custom_button {
+    padding: 0.4rem;
+    font-size: 10px;
+    width: 25%;
+    border-radius: 1px;
+    min-width: 100%;
+  }
+}

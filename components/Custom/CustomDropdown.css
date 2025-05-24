@@ -1,0 +1,27 @@
+.option_link {
+  padding: 0.5rem;
+}
+
+.icon {
+  padding: 5px;
+  height: 3rem;
+  color: #fff;
+}
+.custom-dropdown .dropdown-menu {
+  min-width: 100px;
+  max-width: 200px;
+  padding: 1rem;
+}
+.option_name:hover {
+  background-color: rgba(108, 129, 139, 0.8);
+  padding: 0.5rem;
+}
+p.option_name {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+a.dropdown-toggle.nav-link {
+  text-decoration: none;
+  color: white !important;
+}
